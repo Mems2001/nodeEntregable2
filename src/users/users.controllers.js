@@ -1,6 +1,23 @@
 const UUID = require('uuid');
 
-const usersDB = []
+const usersDB = [
+    {
+        id: "29285727-01eb-4ce5-ac66-1806c9e71ce2",
+        firstName: "Test",
+        lastName: "1",
+        email: "1@test.com",
+        password: "1test" ,
+        birthday: 'Unknown birthday'
+    } ,
+    {
+        id: "3246f871-f90b-4299-b2c6-2754158b9697",
+        firstName: "Test",
+        lastName: "2",
+        email: "2@test.com",
+        password: "2test" ,
+        birthday: 'Unknown birthday'
+    }
+]
 
 const findAll = () => {
     return usersDB
