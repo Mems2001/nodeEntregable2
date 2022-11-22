@@ -1,0 +1,24 @@
+{
+  "name": "entregable-2",
+  "version": "1.0.0",
+  "description": "'proyecto CRUD usuarios'",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./src/app.js",
+    "dev": "nodemon ./src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "entregable2",
+    "CRUD"
+  ],
+  "author": "mems2001",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
